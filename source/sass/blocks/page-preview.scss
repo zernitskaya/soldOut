@@ -1,0 +1,17 @@
+.page-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 66%;
+    overflow: auto;
+
+    @include desktop {
+        width: 57.5%;
+    }
+}
+
+.page-preview__wrap {
+    display: flex;
+    min-height: 100%;
+}

@@ -1,0 +1,17 @@
+.main-content {
+    width: 34%;
+    margin-left: auto;
+    padding: 36px 26px;
+
+    @include desktop {
+        width: 42.5%;
+    }
+}
+
+.main-content__about {
+    margin-bottom: 20px;
+}
+
+.main-content__trust {
+    margin-bottom: 24px;
+}

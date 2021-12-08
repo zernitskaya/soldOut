@@ -1,0 +1,8 @@
+.trust__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trust__link:not(:first-child) {
+    padding-left: 15px;
+}

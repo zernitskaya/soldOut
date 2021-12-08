@@ -1,0 +1,13 @@
+.link {
+    @include active;
+
+    display: block;
+    margin-left: auto;
+    color: $brand-color;
+    text-decoration: none;
+    font-weight: 700;
+
+    @include hover {
+        color: $brand-sub-color;
+    }
+  }
